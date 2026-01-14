@@ -3,6 +3,8 @@
 `IphoneMockup` is a reusable React component that renders a realistic iPhone-style frame.
 It is designed for showcasing UI previews, prototypes, or screenshots inside a mobile device.
 
+The component is built with React, Tailwind CSS, and works seamlessly in Next.js projects.
+
 ### Props
 
 - `background?: string`  
