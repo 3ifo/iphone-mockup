@@ -13,7 +13,7 @@ export const IphoneMockup = ({ dark, background, borderDark }: IphoneProps) => {
         style={
           background ? { backgroundImage: `url(${background})` } : undefined
         }
-        className="w-80  bg-cover bg-center   h-160 border-5 border-black rounded-[50px] relative"
+        className="w-80  bg-cover bg-center   h-[670px] border-[5px] border-black rounded-[50px] relative"
       >
         <div
           className={`absolute -left-2 top-20 w-1  h-6 ${
@@ -31,7 +31,7 @@ export const IphoneMockup = ({ dark, background, borderDark }: IphoneProps) => {
           } rounded`}
         ></div>
         <div
-          className={`absolute -right-2 top-36 w-1  h-18  ${
+          className={`absolute -right-2 top-36 w-1  h-20  ${
             borderDark ? "bg-gray-300 opacity-70" : "bg-black opacity-50"
           } rounded`}
         ></div>
@@ -50,22 +50,22 @@ export const IphoneMockup = ({ dark, background, borderDark }: IphoneProps) => {
           <div className="flex items-center gap-2 mt-2.5">
             <div className="flex  items-end gap-0.5">
               <span
-                className={`w-0.75 h-1.5 rounded-2xl ${
+                className={`w-[3.5px] h-1.5 rounded-2xl ${
                   dark ? "bg-gray-100" : "bg-black"
                 }`}
               ></span>
               <span
-                className={`w-0.75 h-2  rounded-2xl  ${
+                className={`w-[3.5px] h-2  rounded-2xl  ${
                   dark ? "bg-gray-100" : "bg-black"
                 }`}
               ></span>
               <span
-                className={`w-0.75 h-2.5  rounded-2xl ${
+                className={`w-[3.5px] h-2.5  rounded-2xl ${
                   dark ? "bg-gray-100" : "bg-black"
                 }`}
               ></span>
               <span
-                className={`w-0.75 h-3  rounded-2xl ${
+                className={`w-[3.5px] h-3  rounded-2xl ${
                   dark ? "bg-[#404040bd]" : "bg-gray-400"
                 }`}
               ></span>
